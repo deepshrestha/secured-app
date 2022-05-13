@@ -38,7 +38,10 @@ module.exports = {
     ]
   },
   resolve: {
-    extensions: [".tsx", ".ts", ".js"]
+    extensions: [".tsx", ".ts", ".js"],
+    fallback: {
+      util: false,
+    }
   },
   plugins: [
     new webpack.ProvidePlugin({
