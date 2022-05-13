@@ -1,7 +1,7 @@
 const webpack = require("webpack");
 const dotenv = require("dotenv");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
-const { AngularWebpackPlugin } = require('@ngtools/webpack');
+//const { AngularWebpackPlugin } = require('@ngtools/webpack');
 
 module.exports = {
   mode: "development",
